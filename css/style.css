@@ -1,7 +1,21 @@
-textarea{
+#div{
+  display: flex;
+  align-items: stretch;
+  justify-content: start;
+}
+#copy{
+  width: 100px;
+  margin: 0 10px;
+} 
+#paste{
+  width: 100px;
+  margin: 0 10px;
+}
+#copy-textarea{
   opacity: 0;
 }
-button{
-  width: 100px;
+#paste-textarea{
+  width: 300px;
   height: 100px;
+  margin: 0 10px;
 }
