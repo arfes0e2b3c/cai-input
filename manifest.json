@@ -1,0 +1,18 @@
+{
+    "name": "cai-input",
+    "manifest_version": 3,
+    "version": "1.0.1",
+    "description": "This extension read input",
+    "host_permissions": [
+        "https://acct.ynu.ac.jp/bk2/answers"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://acct.ynu.ac.jp/bk2/answers/view/*"
+            ],
+            "js": ["js/index.js"],
+            "css": ["css/style.css"]
+        }
+    ]
+}
