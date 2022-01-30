@@ -4,12 +4,19 @@
     "version": "1.0.1",
     "description": "This extension read input",
     "host_permissions": [
-        "https://acct.ynu.ac.jp/bk2/answers"
+        "https://acct.ynu.ac.jp"
     ],
     "content_scripts": [
         {
             "matches": [
                 "https://acct.ynu.ac.jp/bk2/answers/view/*"
+            ],
+            "js": ["js/index.js"],
+            "css": ["css/style.css"]
+        },
+        {
+            "matches": [
+                "https://acct.ynu.ac.jp/gnk/answers/view/*"
             ],
             "js": ["js/index.js"],
             "css": ["css/style.css"]
