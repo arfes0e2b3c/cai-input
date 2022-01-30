@@ -1,8 +1,6 @@
-# Name(cai-input)
 
-cai-input
 
-# 使い方
+# この拡張機能のダウンロード方法、使い方
 ステップ１：Codeという緑のボタンを押し、Download Zipボタンを押します。(ダウンロードが始まります。)
 ![step1](img/step1.png)
 
