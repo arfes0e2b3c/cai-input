@@ -2,7 +2,7 @@
 
 cai-input
 
-# DEMO
+# 使い方
 
 ![step1](img/step1)
 ![step2](img/step2)
