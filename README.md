@@ -2,8 +2,10 @@
 
 cai-input
 
-# DEMO
+# 使い方
+ステップ１：Codeという緑のボタンを押し、Download Zipボタンを押します。(ダウンロードが始まります。)
 
+ダウンロードが終了したら
 ![step1](img/step1.png)
 ![step2](img/step2.png)
 ![step3](img/step3.png)
