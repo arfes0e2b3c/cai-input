@@ -28,8 +28,8 @@ function createTag() {
   
   let pasteText = document.createElement('textarea');
   pasteText.setAttribute('id', 'textarea');
-  copyText.value = x
-  content.after(copyText);
+  pasteText.value = x
+  content.after(pasteText);
 
   let copyText = document.createElement('textarea');
   copyText.setAttribute('id', 'copy-textarea');
